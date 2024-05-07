@@ -1,0 +1,26 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.4:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [07/May/2024 10:51:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [07/May/2024 10:51:38] "[33mGET /static/static/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [07/May/2024 10:51:38] "[33mGET /static/static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.4:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [07/May/2024 10:57:51] "GET / HTTP/1.1" 200 -
+INFO:pymongo.serverSelection:{"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f42780261f0>", "operation": "insert", "operationId": 1086400878, "topologyDescription": "<TopologyDescription id: 6639bbf858999f4e7e83199a, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-2blvghl-shard-00-00.ln0bt5m.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-2blvghl-shard-00-01.ln0bt5m.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-2blvghl-shard-00-02.ln0bt5m.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6639bbf858999f4e7e83199a"}, "remainingTimeMS": 29}
+INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [07/May/2024 10:58:24] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.4:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [07/May/2024 10:59:49] "GET / HTTP/1.1" 200 -
+INFO:pymongo.serverSelection:{"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f3e13c401f0>", "operation": "insert", "operationId": 993398827, "topologyDescription": "<TopologyDescription id: 6639bc5de93b4542ff979d90, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-2blvghl-shard-00-00.ln0bt5m.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-2blvghl-shard-00-01.ln0bt5m.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-2blvghl-shard-00-02.ln0bt5m.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6639bc5de93b4542ff979d90"}, "remainingTimeMS": 29}
+INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [07/May/2024 11:00:05] "POST /review HTTP/1.1" 200 -
